@@ -1,0 +1,30 @@
+{
+    "name": "viavario/rizivclient",
+    "description": "A PHP client for searching healthcare professionals by their RIZIV number.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vincent Verbruggen",
+            "email": "1309668+viavario@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-curl": "*",
+        "ext-dom": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "viavario\\rizivclient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "viavario\\rizivclient\\tests\\": "tests/"
+        }
+    }
+}
